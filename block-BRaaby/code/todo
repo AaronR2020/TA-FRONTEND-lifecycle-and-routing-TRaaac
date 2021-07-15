@@ -1,0 +1,31 @@
+App->basic layout->componentDidMount=>'fetch.then(res.json).then(this.setState)'to update the data'.
+this.state={
+    name:{
+        key:'name',
+        value:''
+    },
+    age:{
+        key:'age'
+        value:''
+    }
+    selected:{
+        key:'',
+        value:''
+    }
+}
+this.setState({
+    name.value:data.name,
+    age.value:data.age,
+});
+<p>{this.state.name.key}</p>
+<h2>{this.state.name.value}</h2>
+function handleClick(({target})=>{
+{value}:target;
+this.setState({
+    selected.key:['value'],
+    selected.value:this.state.['value'].value,
+})
+})
+<button value="name" onClick='handleClick'>Name</button>
+<p>{this.state.selected.key}</p>
+<h1>{this.state.selected.value}</h1>
